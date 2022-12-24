@@ -87,7 +87,9 @@
     align-items: center;
     justify-content: center;
     gap: 40px 15px;*/
-    flex: grid;
+    display: grid;
+    grid-template-columns: auto auto;
+/*    grid-template-columns: repeat(auto-fill, minmax(10px, 1fr));*/
     grid-gap: 40px 15px;
 /*    border: blue solid 2px;*/
   }
