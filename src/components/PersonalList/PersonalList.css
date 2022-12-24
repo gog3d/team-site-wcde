@@ -82,11 +82,13 @@
   .list__personals {
   /*  position: absolute;*/
 
-    display: flex;
+/*    display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    gap: 40px 15px;
+    gap: 40px 15px;*/
+    flex: grid;
+    grid-gap: 40px 15px;
 /*    border: blue solid 2px;*/
   }
   
