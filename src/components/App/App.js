@@ -9,6 +9,7 @@ import Header from '../Header/Header';
 import AboutUsPage from '../AboutUsPage/AboutUsPage';
 import PersonalCardPage from '../PersonalCardPage/PersonalCardPage';
 import NotFound404 from '../NotFound404/NotFound404';
+import { Analytics } from '@vercel/analytics/react';
 
 function App() {
   const { pathname } = useLocation();
@@ -34,6 +35,7 @@ function App() {
             <NotFound404 />
           } />
        </Routes>
+        <Analytics />
     </div>
   )
 }
